@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Main layout for the Candidate list-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:orientation="vertical"
+    android:typeface="serif"
+    android:textColor="#080937"
+    tools:context=".CandidateListActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLargeInverse"
+        android:text="Who are you voting for?"
+        android:id="@+id/textView6"
+        android:textColor="#080937"
+        android:layout_above="@+id/mylist"
+        android:layout_marginBottom="25dp"
+        />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id = "@+id/mylist"
+        android:textColor="#080937"
+        android:layout_weight="1"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="25.0sp"
+        android:textSize="15sp"
+        />
+</LinearLayout>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingRight="16dp"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:shrinkColumns="*"
+    android:focusable="true"
+    tools:context=".QuestionPage2">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Answer all questions"
+        android:id="@+id/textView6"
+        android:textColor="#080937"
+        android:layout_above="@+id/textView7"
+        android:layout_marginBottom="16dp"
+        />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Age"
+        android:textColor="#080937"
+        android:id="@+id/textView16"
+        android:layout_gravity="center_horizontal"/>
+
+    <Spinner
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/agespinner"/>
+
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Employment Status"
+        android:id="@+id/textView12"
+        android:textColor="#080937"
+        android:layout_gravity="center_horizontal"/>
+
+    <Spinner
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/empspinner"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Income"
+        android:id="@+id/textView13"
+        android:textColor="#080937"
+        android:layout_gravity="center_horizontal"/>
+
+    <Spinner
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/incspinner"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Reason for Preferred Candidate"
+        android:id="@+id/textView14"
+        android:textColor="#080937"
+        android:layout_gravity="center_horizontal"/>
+
+    <Spinner
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/perfspinner"/>
+
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Locality"
+        android:id="@+id/textView15"
+        android:textColor="#080937"
+        android:layout_gravity="center_horizontal"/>
+
+    <Spinner
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/locspinner"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:id="@+id/button1"
+        android:textColor="#080937"
+        android:padding="16dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/pinkbutton"/>
+
+</LinearLayout>

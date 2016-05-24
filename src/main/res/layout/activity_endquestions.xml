@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="20dp"
+    android:paddingTop="20dp"
+    tools:context=".EndQuestionActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Thank you!"
+        android:id="@+id/textView9"
+        android:textColor="#080937"
+        android:typeface="serif"
+        android:layout_marginBottom="39dp"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/button1"/>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ok"
+        android:id="@+id/button1"
+        android:background="@drawable/greenbutton"
+        android:textColor="#080937"
+        android:padding="16dp"
+        android:typeface="serif"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
